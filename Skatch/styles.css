@@ -1,0 +1,345 @@
+/* HTML SELECTORS */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  }
+
+h1 {
+  font-family: 'Montserrat',sans-serif;
+
+}
+
+/* ID SELECTORS */
+
+#firstsection {
+  background-color: #FF5D5D;
+  padding-bottom: 1rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+#second-section {
+  background-color: #FF5D5D;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#features {
+  background-color: white;
+  z-index: 2;
+  position: relative;
+}
+
+#testimonial {
+  padding: 5% 15%;
+  background-color: #FF5D5D;
+  text-align: center;
+}
+
+#press {
+  background-color: #FF5D5D;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+/* CLASS SELECTORS AND MEDIA QUERIES*/
+
+/* Navbar */
+
+
+
+.skatch-brand {
+  font-size: 3.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  padding-left: 15px;
+  ;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.text-and-button {
+padding-top: 0;
+padding-bottom: 0
+}
+
+
+
+.main-heading {
+  font-weight: 300;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  letter-spacing: 2px;
+  padding-bottom: 4rem;
+}
+
+
+
+.img1 {
+  /* transform: rotate(20deg); */
+  position: relative;
+  top: 25%;
+  left: 8px;
+  width: 320px;
+  z-index: 0;
+  padding-top: 0;
+}
+@media (min-width: 992px) {
+  .img1 {
+    transform: rotate(20deg);
+  }
+h1 {
+  align-items: center;
+}
+
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+.psect2 {
+  color: grey;
+  padding-bottom: 50px;
+}
+
+.ETU {
+  padding-top: 115px;
+  font-size: 1.75rem;
+  align-items: center;
+  padding-left: 25px;
+}
+
+.circle1 {
+  position: relative;
+  left: 110px;
+  top: 90px;
+  color: #FF5D5D;
+  align-items: center;
+}
+
+.bulleye {
+  position: relative;
+  top: 90px;
+  left: 125px;
+  color: #FF5D5D;
+  align-items: center;
+}
+
+.heart {
+  position: relative;
+  top: 90px;
+  left: 180px;
+  color: #FF5D5D;
+  align-items: center;
+}
+
+.hovericons:hover {
+  color: #990000;
+}
+
+
+
+.sec2maintext {
+  font-size: 3rem;
+  font-family: 'Montserrat', bold;
+  color: #ffff;
+}
+
+.skater1 {
+  max-width: 27%;
+  height: auto;
+}
+
+.testimonial-img {
+  padding-top: 1.5rem;
+  width: 15%;
+  border-radius: 100%;
+}
+
+
+
+.presss-section-images {
+  width: 10%;
+  margin: 0 20 0 20;
+}
+
+.testimonial-name {
+  color: white;
+  position: static;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.card1 {
+  margin: 2rem;
+  padding: 10px;
+}
+
+.Pricingheader {
+  font-weight: 300;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #FF5D5D;
+  letter-spacing: 2px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.pricing-description {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: white;
+  letter-spacing: 2px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.pricing-desc-style {
+  background-color: #FF785D
+}
+
+.card-free {
+  margin: 3%;
+  padding: 0;
+  letter-spacing: 1;
+}
+
+.card-premium {
+  margin: 3%;
+  padding: 0;
+  letter-spacing: 1;
+}
+
+.card-vip {
+  margin: 3%;
+  padding: 0;
+  letter-spacing: 1;
+}
+
+.card-content {
+  color: grey;
+}
+
+.skatch-plans {
+  color: black;
+}
+
+.footer-msg {
+  text-align: center;
+  margin: auto;
+}
+
+.footer-btn1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-btn2 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.footer-Copyright {
+  font-size: .8rem;
+}
+
+.footer-Copyright-color {
+  color: #FF785D
+}
+
+.footer-basic {
+  padding: 40px 0;
+  background-color: #FF5D5D;
+  color: #FFF;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: #FFF;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: #FFF;
+  opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #FFF;
+  margin-bottom: 0;
+}
+
+.social-icons {
+  color: #FFF;
+}
+
+.fa-brands {
+  text-decoration: none;
+}
+
+.list-inline {
+
+}
